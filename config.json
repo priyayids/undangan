@@ -1,0 +1,59 @@
+{
+  "couple": {
+    "brideName": "Putri Anisya Rachman",
+    "groomName": "Priyayi Dermawan Suandi",
+    "brideAlias": "Putri",
+    "groomAlias": "Ayi",
+    "brideParents": {
+      "father": "Alm. Bpk Aas Ruasul Falah",
+      "mother": "Ibu Neni Junaeni"
+    },
+    "groomParents": {
+      "father": "Bpk Otong Kuswandi",
+      "mother": "Ibu Iroh Muspita"
+    }
+  },
+  "wedding": {
+    "ceremonyDate": "2026-06-14",
+    "ceremonyTime": "08.00",
+    "ceremonyTimeEnd": "00:00",
+    "timezone": "Asia/Jakarta",
+    "dayOfWeek": "Minggu"
+  },
+  "locations": {
+    "ceremony": {
+      "name": "Rumah Mempelai Wanita",
+      "address": "Jl.Empat Lima Kaujon Singandaru, Serang, Kec. Serang, Kota Serang, Banten 42116",
+      "city": "Serang",
+      "mapsUrl": "https://www.google.com/maps?um=1&ie=UTF-8&fb=1&gl=id&sa=X&geocode=KZ8NwBXaikEuMUU7zecoPd42&daddr=Jl.Empat+Lima+Kaujon+Singandaru,+Serang,+Kec.+Serang,+Kota+Serang,+Banten+42116"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.JPG",
+    "bride": "/images/bride-profile.JPG",
+    "groom": "/images/groom-profile.JPG",
+    "gallery": [
+      "/images/gallery/1.JPG",
+      "/images/gallery/2.JPG",
+      "/images/gallery/3.JPG",
+      "/images/gallery/4.JPG",
+      "/images/gallery/5.JPG",
+      "/images/gallery/6.JPG",
+      "/images/gallery/7.JPG"
+    ],
+    "quoteBg": "/images/quote-bg.jpg"
+  },
+  "quote": {
+    "text": "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.",
+    "reference": "Q.S. Ar-Rum 21"
+  },
+  "formspree": {
+    "wishesFormId": "YOUR_FORMSPREE_ID"
+  },
+  "siteMetadata": {
+    "title": "Undangan Pernikahan - Putri & Ayi",
+    "description": "Kami mengundang Anda untuk merayakan momen spesial kami",
+    "ogImage": "/images/hero.JPG",
+    "url": "https://undangan-putri-ayi.vercel.app"
+  }
+}
