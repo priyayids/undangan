@@ -10,6 +10,7 @@ import EventDetails from '@/components/EventDetails'
 import Countdown from '@/components/Countdown'
 import Quote from '@/components/Quote'
 import Gallery from '@/components/Gallery'
+import BankingSection from '@/components/BankingSection'
 import Wishes from '@/components/Wishes'
 import Footer from '@/components/Footer'
 
@@ -45,6 +46,7 @@ export default function Home({ config }: HomeProps) {
         <Countdown weddingDate={config.wedding.ceremonyDate} config={config} />
         <Quote config={config} />
         <Gallery config={config} />
+        <BankingSection accounts={config.banking.accounts} />
         <Wishes config={config} defaultName={guestName} />
         <Footer config={config} />
       </main>

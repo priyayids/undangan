@@ -188,8 +188,21 @@ export default function Wishes({ config, defaultName }: WishesProps) {
             </h3>
             <div className="space-y-4">
               {wishes.map((w, i) => (
-                <div key={i} className="p-6 bg-white rounded-lg shadow-sm">
-                  <div className="flex items-start justify-between mb-2">
+                <div key={i} className="p-6 bg-white rounded-lg shadow-sm group relative">
+                  <button
+                    onClick={() => {
+                      if (window.confirm(`Hapus ucapan dari ${w.name}?`)) {
+                        const updated = wishes.filter((_, idx) => idx !== i)
+                        setWishes(updated)
+                        localStorage.setItem('wedding-wishes', JSON.stringify(updated))
+                      }
+                    }}
+                    className="absolute top-3 right-3 w-7 h-7 flex items-center justify-center rounded-full bg-red-50 text-red-400 hover:bg-red-100 hover:text-red-600 transition-all"
+                    title="Hapus ucapan"
+                  >
+                    ×
+                  </button>
+                  <div className="flex items-start justify-between mb-2 pr-6">
                     <p className="font-semibold text-navy">
                       {w.name}{w.alias ? ` (${w.alias})` : ''}
                     </p>

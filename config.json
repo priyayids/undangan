@@ -50,6 +50,20 @@
   "formspree": {
     "wishesFormId": "YOUR_FORMSPREE_ID"
   },
+  "banking": {
+    "accounts": [
+      {
+        "bank": "Mandiri",
+        "accountNumber": "1630010423252",
+        "accountName": "Putri Anisya Rachman"
+      },
+      {
+        "bank": "Mandiri",
+        "accountNumber": "1630011021998",
+        "accountName": "Priyayi Dermawan Suandi"
+      }
+    ]
+  },
   "siteMetadata": {
     "title": "Undangan Pernikahan - Putri & Ayi",
     "description": "Kami mengundang Anda untuk merayakan momen spesial kami",

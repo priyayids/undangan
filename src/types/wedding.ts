@@ -37,6 +37,9 @@ export interface WeddingConfig {
   formspree: {
     wishesFormId: string
   }
+  banking: {
+    accounts: BankAccount[]
+  }
   siteMetadata: {
     title: string
     description: string
@@ -50,6 +53,12 @@ export interface Location {
   address: string
   city: string
   mapsUrl: string
+}
+
+export interface BankAccount {
+  bank: string
+  accountNumber: string
+  accountName: string
 }
 
 export interface CountdownTime {
