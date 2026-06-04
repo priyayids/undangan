@@ -13,6 +13,7 @@ import Gallery from '@/components/Gallery'
 import BankingSection from '@/components/BankingSection'
 import Wishes from '@/components/Wishes'
 import Footer from '@/components/Footer'
+import BackgroundMusic from '@/components/BackgroundMusic'
 
 interface HomeProps {
   config: WeddingConfig
@@ -50,6 +51,8 @@ export default function Home({ config }: HomeProps) {
         <Wishes config={config} defaultName={guestName} />
         <Footer config={config} />
       </main>
+
+      <BackgroundMusic />
     </>
   )
 }
