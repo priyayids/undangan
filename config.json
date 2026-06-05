@@ -29,19 +29,19 @@
     }
   },
   "images": {
-    "hero": "/images/hero.JPG",
-    "bride": "/images/bride-profile.JPG",
-    "groom": "/images/groom-profile.JPG",
+    "hero": "/images-compressed/hero.JPG",
+    "bride": "/images-compressed/bride-profile.JPG",
+    "groom": "/images-compressed/groom-profile.JPG",
     "gallery": [
-      "/images/gallery/1.JPG",
-      "/images/gallery/2.JPG",
-      "/images/gallery/3.JPG",
-      "/images/gallery/4.JPG",
-      "/images/gallery/5.JPG",
-      "/images/gallery/6.JPG",
-      "/images/gallery/7.JPG"
+      "/images-compressed/gallery/1.JPG",
+      "/images-compressed/gallery/2.JPG",
+      "/images-compressed/gallery/3.JPG",
+      "/images-compressed/gallery/4.JPG",
+      "/images-compressed/gallery/5.JPG",
+      "/images-compressed/gallery/6.JPG",
+      "/images-compressed/gallery/7.JPG"
     ],
-    "quoteBg": "/images/quote-bg.jpg"
+    "quoteBg": "/images-compressed/quote-bg.jpg"
   },
   "quote": {
     "text": "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.",
@@ -67,7 +67,7 @@
   "siteMetadata": {
     "title": "Undangan Pernikahan - Putri & Ayi",
     "description": "Kami mengundang Anda untuk merayakan momen spesial kami",
-    "ogImage": "/images/hero.JPG",
+    "ogImage": "/images-compressed/hero.JPG",
     "url": "https://undangan-putri-ayi.vercel.app"
   }
 }
